@@ -1,0 +1,23 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-main;
+    padding: 0;
+    margin: 0;
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+a, p, h1, h2, h3, h4, h5, h6 {margin: 0;}
+
+a {text-decoration: none;}
+
+// Remove ScrollBar
+::-webkit-scrollbar {
+    width: 0;
+}
