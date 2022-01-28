@@ -6,6 +6,7 @@ import cleanCss from 'gulp-clean-css';
 import webpcss from 'gulp-webpcss';
 import autoprefixer from 'gulp-autoprefixer';
 import groupCssMediaQueries from 'gulp-group-css-media-queries';
+import concatCss from 'gulp-concat-css';
 
 const sass = gulpsass(dartsass);
 
@@ -42,6 +43,7 @@ export const scss = () => {
         .pipe(rename({
             extname: '.min.css',
         }))
+        // .pipe(concatCss(app.path.src.css))
         .pipe(app.gulp.dest(app.path.build.scss))
         .pipe(app.plugins.browsersync.stream())
 }

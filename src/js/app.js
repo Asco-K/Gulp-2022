@@ -2,7 +2,7 @@
 
 // WebP
 import * as flsfunctions from './modules/functions.js';
-flsfunctions.isWebP();
+flsfunctions.isWebp();
 
 // Script
 import './modules/script.js';

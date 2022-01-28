@@ -17,6 +17,7 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
+    "gulp-concat-css": "^3.1.0",
     "gulp-file-include": "^2.3.0",
     "gulp-fonter": "^0.3.0",
     "gulp-group-css-media-queries": "^1.2.2",
@@ -35,5 +36,8 @@
     "webp-converter": "^2.2.3",
     "webpack": "^5.66.0",
     "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
