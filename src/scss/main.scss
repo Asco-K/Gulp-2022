@@ -1,18 +1,9 @@
-// Fonts
-@import 'fonts.scss';
-// Vars
-@import 'vars.scss';
-// Mixins
-@import 'mixins/mixins';
-// Global
-@import 'global.scss';
-// Setting
-@import 'settings/normalize';
-@import 'settings/reset';
+// Basic
+@import '_vars.scss';
+@import '_mixins.scss';
+@import '_fonts.scss';
+@import '_global.scss';
 
 // Sections
 @import 'sections/header';
-@import 'sections/footer';
-
-// Responsive
-@import 'responsive.scss';
+@import 'sections/_footer';

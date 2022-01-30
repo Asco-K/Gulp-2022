@@ -40,9 +40,9 @@ export const scss = () => {
             app.isBuild,
             cleanCss()
         ))
-        .pipe(rename({
-            extname: '.min.css',
-        }))
+        // .pipe(rename({
+        //     extname: '.min.css',
+        // }))
         // .pipe(concatCss(app.path.src.css))
         .pipe(app.gulp.dest(app.path.build.scss))
         .pipe(app.plugins.browsersync.stream())
