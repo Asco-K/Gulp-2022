@@ -1,4 +1,6 @@
-*,*::before,*::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -13,9 +15,32 @@ body.lock {
     overflow: hidden;
 }
 
-a, p, h1, h2, h3, h4, h5, h6 {margin: 0;}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
-a {text-decoration: none;}
+main {
+    min-height: 100%;
+    flex: 1 1 auto;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: .3s;
+}
 
 // Remove ScrollBar
 ::-webkit-scrollbar {

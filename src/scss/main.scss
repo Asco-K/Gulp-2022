@@ -4,6 +4,10 @@
 @import '_fonts.scss';
 @import '_global.scss';
 
+// Setting
+@import 'settings/normalize';
+@import 'settings/reset';
+
 // Sections
 @import 'sections/header';
-@import 'sections/_footer';
+@import 'sections/footer';
